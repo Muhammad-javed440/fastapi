@@ -6,7 +6,7 @@ app =FastAPI()
 async def javed() -> dict[str, str]:
     return{"messege":"hello javed"}   
 
-@app.get('/about')
+@app.get('/about')        
 async def javed1() -> str:
     return "hello javed1"
 
